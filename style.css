@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f6f4ef;
+    color: #111;
+}
+
+header {
+    background-color: white;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfbf6;
+}
+
+.main-left {
+    background: linear-gradient(to top right, #fff6e5, #fcefd9);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.main-right {
+    max-width: 400px;
+}
+
+.main-right h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-right p {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+
+.google {
+    background-color: #000;
+    color: #fff;
+}
+
+.github {
+    background-color: #403f3f;
+    color: #fff;
+}
+
+.how-it-works {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.how-section {
+    padding: 40px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.how-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.step {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+    /*background-color: #fff3c2;*/
+}
+
+.step h3 {
+    margin: 10px 0;
+}
+
+.coming-soon {
+    background: #fff7e7;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.badge {
+    background: #fff3c2;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #914100;
+}
+
+.coming-soon h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.coming-soon p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+#bookCallBtn {
+    background-color: #d86f03;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    /*border-radius: 8px;*/
+    cursor: pointer;
+}
